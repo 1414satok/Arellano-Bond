@@ -1,0 +1,21 @@
+\begin{table}
+\centering
+\begin{tabular}[t]{lccc}
+\toprule
+  & lm & IV $\Delta Y_{it-2}$ & IV $\Delta Y_{it-2},\Delta Y_{it-3}$\\
+\midrule
+$\Delta Y_{it-1}$ & 0.445*** & 0.802*** & 0.946*\\
+ & (0.014) & (0.094) & (0.367)\\
+$\Delta X_{it}$ & 0.637*** & 0.798*** & 0.899***\\
+ & (0.018) & (0.043) & (0.149)\\
+\midrule
+Num.Obs. & 3000 & 2000 & 1000\\
+R2 & 0.368 & 0.073 & -0.194\\
+R2 Adj. & 0.368 & 0.072 & -0.196\\
+Weak IV F-stat &  & 125.9 & 5.4\\
+sargan &  &  & 0.78626945485083\\
+sargan.p &  &  & 0.375230549524549\\
+\bottomrule
+\multicolumn{4}{l}{\rule{0pt}{1em}+ p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001}\\
+\end{tabular}
+\end{table}
